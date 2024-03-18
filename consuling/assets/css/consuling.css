@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container .text{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 20%;
+}.headerTop{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 0;
+}
+.navList{
+    list-style: none;
+    display: flex;
+  
+    justify-content: space-between;
+    
+}
+.navList a{
+    text-decoration: none;
+    color: black;
+
+}
+nav {
+    width: 40%;
+    
+}
+.headerBottom{
+    padding: 15px 0;
+}
+.icons{
+    width: 10%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
